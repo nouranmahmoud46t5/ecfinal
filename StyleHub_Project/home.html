@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Hub - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="home-container">
+        <header>
+           <div class="menu-dropdown">
+    <div class="icon"><i class="fas fa-bars"></i></div>
+    
+     <div class="dropdown-content">
+    <a href="profile.html">My Profile</a>
+    <a href="history.html">Our History</a> 
+    <a href="contact.html">Contact Us</a>
+    <a href="login.html">Log Out</a>
+</div>
+
+</div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for a style (Maxi, Evening, Summer...)">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+            <a href="cart.html" class="icon" style="position: relative;">
+                <i class="fas fa-shopping-bag"></i>
+                <span style="position: absolute; top: -5px; right: -5px; background-color: var(--primary-color); color: white; border-radius: 50%; padding: 0px 6px; font-size: 0.6em; font-weight: bold;">2</span>
+            </a>
+        </header>
+
+        <h2 style="padding: 20px 30px; color: var(--dark-text);">New Arrivals - Dresses</h2>
+
+        <div class="product-grid">
+            
+            <div class="product-card" id="pro1">
+                <img src="images/pro1.jpeg" alt="Elegant Floral Maxi Dress">
+                <div class="product-info">
+                    <h3>Elegant Floral Maxi Dress</h3>
+                    <p>Summer Collection</p>
+                    <div class="rating">★★★★★ (150 Reviews)</div>
+                    <div class="price">$120.00</div>
+                    <i class="fas fa-plus-circle icon" style="font-size: 1.5em; cursor: pointer;"></i>
+                </div>
+            </div>
+
+            <div class="product-card" id="pro2">
+                <img src="images/pro2.jpeg" alt="Princess Pink Tulle Dress">
+                <div class="product-info">
+                    <h3>Princess Pink Tulle Dress</h3>
+                    <p>Evening Wear</p>
+                    <div class="rating">★★★★☆ (95 Reviews)</div>
+                    <div class="price">$250.00</div>
+                    <i class="fas fa-plus-circle icon" style="font-size: 1.5em; cursor: pointer;"></i>
+                </div>
+            </div>
+            
+            <div class="product-card" id="pro3">
+                <img src="images/pro3.jpeg" alt="Casual Denim Shirt Dress">
+                <div class="product-info">
+                    <h3>Casual Denim Shirt Dress</h3>
+                    <p>Daily Chic</p>
+                    <div class="rating">★★★★☆ (320 Reviews)</div>
+                    <div class="price">$85.00</div>
+                    <i class="fas fa-plus-circle icon" style="font-size: 1.5em; cursor: pointer;"></i>
+                </div>
+            </div>
+
+            <div class="product-card" id="pro4">
+                <img src="images/pro4.jpeg" alt="Ruffled Mini Party Dress">
+                <div class="product-info">
+                    <h3>Ruffled Mini Party Dress</h3>
+                    <p>Limited Edition</p>
+                    <div class="rating">★★★★★ (45 Reviews)</div>
+                    <div class="price">$150.00</div>
+                    <i class="fas fa-plus-circle icon" style="font-size: 1.5em; cursor: pointer;"></i>
+                </div>
+            </div>
+            
+            <div class="product-card" id="pro5">
+                <img src="images/pro5.jpeg" alt="Velvet Long Sleeve Dress">
+                <div class="product-info">
+                    <h3>Velvet Long Sleeve Dress</h3>
+                    <p>Winter Style</p>
+                    <div class="rating">★★★★☆ (110 Reviews)</div>
+                    <div class="price">$99.00</div>
+                    <i class="fas fa-plus-circle icon" style="font-size: 1.5em; cursor: pointer;"></i>
+                </div>
+            </div>
+        </div>
+        
+        <footer style="display: flex; justify-content: space-around; padding: 15px; border-top: 1px solid var(--border-color); background-color: var(--secondary-color); position: sticky; bottom: 0; width: 100%; max-width: 1200px; margin: 0 auto;">
+            <button class="btn btn-secondary" style="width: 45%; margin: 0; padding: 10px; border-radius: 10px;">
+                <i class="fas fa-filter"></i> Filter
+            </button>
+            
+            <div class="sort-dropdown">
+                <button class="btn btn-secondary" style="width: 100%; margin: 0; padding: 10px; border-radius: 10px;">
+                    <i class="fas fa-sort"></i> Sort By
+                </button>
+                <div class="sort-content">
+                    <a href="#">Price: Low to High</a>
+                    <a href="#">Price: High to Low</a>
+                    <a href="#">Top Rated</a>
+                    <a href="#">Newest Arrivals</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
